@@ -1,0 +1,87 @@
+.principal-banner {
+  background-image: url("../images/home/home-banner-3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pricing-panel-home {
+  width: 360px;
+  border: none;
+  padding: 0px;
+}
+
+.card {
+  border: none;
+}
+
+.card-course {
+  width: 100%;
+  background-image: url("../images/home/thumbs/mv8s-thumb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-body--distancer {
+  margin-top: 220px;
+}
+
+.btn--marine {
+  background-color: rgb(0, 28, 36);
+  color: #fff;
+}
+
+.btn--marine:hover {
+  background-color: rgb(245, 150, 8);
+  color: #fff;
+}
+
+@media only screen and (max-width: 1080px) {
+  .principal-logo {
+    display: none;
+  }
+
+  .principal-banner {
+    background-image: url("../images/home/1080.png");
+  }
+
+  .principal-banner {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero,
+  .hero .hero-content {
+    height: 400px;
+  }
+
+  .price-table {
+    text-align: center;
+    text-align: -webkit-center;
+  }
+}
+
+@media only screen and (max-width: 638px) {
+  .hero,
+  .hero .hero-content {
+    height: 400px;
+  }
+
+  .principal-banner {
+    background-image: url("../images/home/638.png");
+    background-attachment: fixed;
+    /* background-size: contain; */
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .principal-banner {
+    /* background-image: url("../images/home/767.png"); */
+    background-size: cover;
+  }
+
+  .hero,
+  .hero .hero-content {
+    height: 300px;
+  }
+}

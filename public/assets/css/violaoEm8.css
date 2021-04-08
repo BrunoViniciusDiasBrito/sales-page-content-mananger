@@ -1,0 +1,223 @@
+.videoInicio {
+  border: 3px solid orange;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.inicial--title--cta {
+  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-width: 3px;
+}
+
+.inicial--text--cta {
+  opacity: 0.8 !important;
+  box-shadow: black 3px 1px 25px 1px;
+  padding: 5px 5px;
+  background: rgba(000, 000, 000, 0.3);
+  /* -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 0.7px; */
+}
+
+.arrow-guide {
+  text-align: center;
+  font-size: 80px;
+  color: orange;
+}
+
+.inicial--text--cta span {
+  font-size: 30px !important;
+  font-weight: bold;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+/* new Button colors */
+
+.btn--orange {
+  background-color: orange;
+  color: #ffffff;
+  border: none;
+}
+
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:hover {
+  background-color: rgb(212, 144, 18);
+  color: #ffffff;
+}
+
+.bg-dark .btn--orange:active,
+.bg-dark .btn--orange:focus,
+.bg-dark .btn--orange:hover {
+  background-color: rgb(212, 144, 18);
+  color: #ffffff;
+}
+
+.info-violao {
+  background-image: url("../images/infoprod_violao_em_8/fundo-violao-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.optin-number--marker {
+  text-align: center;
+  padding: 20px;
+  border: 3px solid rgb(99, 195, 132);
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+
+.feature-2 {
+  background-image: url("../images/infoprod_violao_em_8/fundo-mv8s.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feature-2--mv8s {
+  text-align: center;
+}
+
+.feature-2--mv8s p {
+  font-size: 1.4em;
+}
+
+.modules--title {
+  padding: 15px;
+  /* -webkit-text-stroke-width: 0.5px; largura da borda */
+  /* -webkit-text-stroke-color: red; cor da borda */
+}
+
+.midcta {
+  padding-top: 30px !important;
+}
+
+.feature--content h3 {
+  font-weight: bold !important;
+}
+
+.moudele--bonus {
+  background-image: url("../images/infoprod_violao_em_8/bonus-background-star.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modules--title--bonus {
+  color: red !important;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: orange;
+}
+
+.module--bonus--icon--red {
+  color: red;
+}
+
+.titulo--valor--color {
+  color: red !important;
+  font-weight: bold !important;
+}
+
+.garanteSeal {
+  width: 340px;
+  height: 340px;
+  background-image: url("../images/infoprod_violao_em_8/selo-garantia-7-dias-1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.garante--content {
+  margin-left: 80px;
+}
+
+.garante--content h5 {
+  color: black;
+  line-height: 1.6em;
+  font-weight: normal;
+  color: #515151;
+}
+
+.garante--content h4 {
+  font-weight: normal;
+}
+
+.garante--content--pag p {
+  color: black;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.garante--content--pag p span {
+  font-size: 2em;
+  color: green;
+}
+.garante--content--pag small {
+  font-size: 1.2em;
+}
+
+.pagSeguroHotmart {
+  background-image: url("../images//infoprod_violao_em_8/compra-segura-hotmart.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: 50%;
+  height: 230px;
+}
+
+.pag--module--color h2 {
+  color: black !important;
+}
+
+.videoFinal {
+  text-align: center;
+}
+
+.videoFinal iframe {
+  border: 3px solid orange;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.videoFinal h2 {
+  color: #fff;
+}
+
+@media only screen and (max-width: 927px) {
+  .feature-2 {
+    background-image: url("");
+  }
+
+  .moudele--bonus {
+    background-image: url("");
+  }
+
+  .garante--content {
+    margin-left: 0px;
+  }
+
+  .videoInicio {
+    width: 100%;
+  }
+
+  .videoFinal iframe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-holder {
+    text-align: center;
+  }
+
+  .garanteSeal {
+    background-size: initial;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .garante--content--pag p span {
+    line-height: 100px;
+  }
+}
