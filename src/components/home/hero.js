@@ -1,22 +1,18 @@
-function createHero() {
+function createHero(props) {
   return (
-    <section className="hero hero-2" id="hero">
-      <div className="hero-content bg-lkight principal-banner">
+    <section className="hero hero-2 hero-height bg--home" id="hero">
+      <div>
         <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-12 col-lg-12">
+          {props.isTrue ? (
+            <div className="row pt-50 row-content">
               <div
-                className="hero-logo mt-70 d-none d-sm-block wow fadeInUp"
+                className="col-12 offset-md-4 principal--title--banner  pt-100 wow fadeInUp"
                 data-wow-duration="1s"
               >
-                <img
-                  className="principal-logo"
-                  src="assets/images/logo/infoproduto-219.png"
-                  alt="logo hero"
-                />
+                <div className="hero-headline">Infoproduto Mania</div>
               </div>
             </div>
-          </div>
+          ) : null}
         </div>
       </div>
     </section>

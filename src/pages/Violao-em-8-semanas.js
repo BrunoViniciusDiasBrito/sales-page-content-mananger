@@ -16,9 +16,9 @@ import Modules from "../components/violao_8_semanas/modules";
 import ModuloPagamento from "../components/violao_8_semanas/moduloPagamento";
 import Resume from "../components/violao_8_semanas/resume";
 
-function cursoIngles() {
+function metodoViolao() {
   return (
-    <div className="cursoIngles">
+    <div className="metodoViolao">
       <Hero />
       <Feature />
       <OptinCopy />
@@ -35,4 +35,4 @@ function cursoIngles() {
   );
 }
 
-export default cursoIngles;
+export default metodoViolao;

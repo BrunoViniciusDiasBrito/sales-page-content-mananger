@@ -11,16 +11,7 @@ function createHeader() {
         <div className="container">
           {" "}
           <a className="logo navbar-brand" href="index.html">
-            <img
-              className="logo logo-dark"
-              src="assets/images/logo/infoproduto-94x66.png"
-              alt="Logo"
-            />
-            <img
-              className="logo logo-light"
-              src="assets/images/logo/logo-light.png"
-              alt="Lenoto Logo"
-            />
+            <div className="logo header-logo"></div>
           </a>
           <button
             className="navbar-toggler collapsed"

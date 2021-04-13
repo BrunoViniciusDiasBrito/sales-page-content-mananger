@@ -1,5 +1,5 @@
-import Header from "./Header";
 import Hero from "../components/home/hero";
+// import Header from "./Header";
 // import HeroVideo from "../components/home/heroVideo";
 // import Clearfix from "../components/home/clearfix";
 // import Feature from "../components/home/feature";
@@ -12,10 +12,11 @@ import Cta from "../components/home/cta";
 // import Ads from "../components/home/ads";
 
 function createHome() {
+  const mediator = true;
+
   return (
     <div className="homePage">
-      <Header />
-      <Hero />
+      <Hero isTrue={mediator} />
       <InfoProduto />
       <Cta />
     </div>

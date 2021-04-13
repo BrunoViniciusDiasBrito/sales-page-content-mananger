@@ -1,7 +1,7 @@
 function createHero() {
   return (
-    <section className="hero hero-2 bg-dark" id="hero">
-      <div className="hero-content bg-dark info-violao">
+    <section className="hero hero-2 bg-dark banner--height" id="hero">
+      <div className="hero-content bg-dark info-violao banner--height">
         <div className="container">
           <div className="row row-content">
             <div
@@ -28,15 +28,18 @@ function createHero() {
               <div className="hero-headline inicial--title--cta">
                 Violão do ABSOLUTO ZERO em 8 Semanas
               </div>
-              <div className="hero-bio inicial--text--cta">
-                O único Método de ensino de violão baseado em aprendizagem
-                acelerada que te permite ir do zero ao avançado em apena 8
-                semanas mesmo que você acredite não ter talento, dom ou tempo
-                para praticar. <br />
-                <span>
-                  Através de Uma Métodologia Comprovada e Altamente Eficaz
-                </span>
-              </div>
+              {window.outerWidth >= 763 ? (
+                <div className="hero-bio inicial--text--cta">
+                  O único Método de ensino de violão baseado em aprendizagem
+                  acelerada que te permite ir do zero ao avançado em apena 8
+                  semanas mesmo que você acredite não ter talento, dom ou tempo
+                  para praticar. <br />
+                  <span>
+                    Através de Uma Métodologia Comprovada e Altamente Eficaz
+                  </span>
+                </div>
+              ) : null}
+
               <div className="hero-action">
                 <a
                   className="btn btn--orange btn--rounded"
@@ -48,7 +51,7 @@ function createHero() {
             </div>
           </div>
 
-          <div className="row pt-50 wow fadeInUp">
+          <div className="row pt-50 wow fadeInUp arrow--height">
             <div className="col-12 col-md-12 col-lg-12 arrow-guide">
               <i className="lnr lnr-chevron-down"></i>
             </div>

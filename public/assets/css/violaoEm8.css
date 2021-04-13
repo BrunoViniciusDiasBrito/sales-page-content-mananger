@@ -205,6 +205,20 @@
   }
 }
 
+@media only screen and (max-width: 763px) {
+  .banner--height {
+    height: 800px !important;
+  }
+
+  .arrow--height {
+    padding-top: 0px !important;
+  }
+
+  .hero .hero-action {
+    margin-bottom: 0px !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .hero-holder {
     text-align: center;

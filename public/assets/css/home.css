@@ -1,9 +1,39 @@
+.header-logo {
+  background-image: url("../images/logo/Infoproduto-94x66.png");
+  background-repeat: no-repeat;
+  width: 94px;
+  height: 66px;
+}
+
+.bg--home {
+  background-image: url("../images/home/fundo-preto.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal--title--banner > .hero-headline {
+  color: transparent;
+  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-width: 3px;
+}
+
+.hero-height {
+  height: 400px !important;
+}
+
+.principal-logo {
+  background-image: url("../images/logo/Infoproduto-219.png");
+  width: 219px;
+  height: 154px;
+}
+
 .principal-banner {
   background-image: url("../images/home/home-banner-3.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+/*Home / */
 .pricing-panel-home {
   width: 360px;
   border: none;
@@ -71,6 +101,14 @@
     background-image: url("../images/home/638.png");
     background-attachment: fixed;
     /* background-size: contain; */
+  }
+
+  .hero-height {
+    height: 300px !important;
+  }
+
+  .principal--title--banner {
+    margin-top: 30px;
   }
 }
 

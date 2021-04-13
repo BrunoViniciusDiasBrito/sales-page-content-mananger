@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Home from "./components/Home";
 import Footer from "./components/Footer";
+// import Home from "./components/Home";
 // import ViolaoEm8Semanas from "./pages/Violao-em-8-semanas";
+import DietaFlex from "./pages/DietaFlexivel";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <DietaFlex />
     <Footer name="infoprodutomania.com.br" />
   </React.StrictMode>,
   document.getElementById("root")
