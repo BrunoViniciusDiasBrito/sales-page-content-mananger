@@ -5,14 +5,16 @@ function createFeature() {
         <div className="row clearfix">
           <div className="col-12 col-md-12 col-lg-6 offset-lg-3">
             <div
-              className="heading heading-1 mb-70 text--center wow fadeInUp"
+              className="heading heading-1 mb-70 df-feature-titles wow fadeInUp"
               data-wow-duration="1s"
             >
-              <h2 className="heading--title">Sell Your E-book</h2>
+              <h2 className="heading--title">
+                <b>E PARA AJUDAR NA SUA DECISÃO</b>
+              </h2>
               <p className="heading--desc">
-                we shows only the best websites, portfolios ans landing pages
-                built completely with passion, simplicity &amp; creativity
+                Junto com o meu guia de treino eu vou te dar mais
               </p>
+              <span className="bonus-text">3 bônus!</span>
             </div>
           </div>
         </div>
@@ -21,14 +23,18 @@ function createFeature() {
           <div className="col-12 col-md-4 col-lg-4 ">
             <div className="feature-panel wow fadeInUp" data-wow-duration="1s">
               <div className="feature--icon">
-                <i className="lnr lnr-bullhorn"></i>
+                <img
+                  className="bonus-ebook"
+                  src="assets/images/infoprod_dieta_flex/poses.jpg"
+                  alt="logo hero"
+                />
               </div>
               <div className="feature--content">
-                <h3>Start your campaign</h3>
+                <h3>MANUAL DE POSES</h3>
                 <p>
-                  Ebo impresses you with fully responsiveness and highly
-                  customization. We did it in combination of very clean and
-                  flexible design.
+                  O manual de poses vai te ensinar as principais poses do
+                  fisiculturismo de uma forma rápida e prática com apenas 5
+                  passos por pose.
                 </p>
               </div>
             </div>
@@ -37,14 +43,18 @@ function createFeature() {
           <div className="col-12 col-md-4 col-lg-4 ">
             <div className="feature-panel wow fadeInUp" data-wow-duration="1s">
               <div className="feature--icon">
-                <i className="lnr lnr-user"></i>
+                <img
+                  className="bonus-ebook"
+                  src="assets/images/infoprod_dieta_flex/receitas.jpg"
+                  alt="logo hero"
+                />
               </div>
               <div className="feature--content">
-                <h3>Engage new users</h3>
+                <h3>RECEITAS FLEXIVEIS</h3>
                 <p>
-                  Ebo impresses you with fully responsiveness and highly
-                  customization. We did it in combination of very clean and
-                  flexible design.
+                  O livro de receitas te ensina a fazer pratos com ou sem whey,
+                  falando brevemente sobre cada ingrediente e suas ações no
+                  organismo.
                 </p>
               </div>
             </div>
@@ -53,14 +63,17 @@ function createFeature() {
           <div className="col-12 col-md-4 col-lg-4 ">
             <div className="feature-panel wow fadeInUp" data-wow-duration="1s">
               <div className="feature--icon">
-                <i className="lnr lnr-chart-bars"></i>
+                <img
+                  className="bonus-ebook"
+                  src="assets/images/infoprod_dieta_flex/dieta.jpg"
+                  alt="logo hero"
+                />
               </div>
               <div className="feature--content">
-                <h3>Claim your reward</h3>
+                <h3>DIETA FLEXIVEL</h3>
                 <p>
-                  Ebo impresses you with fully responsiveness and highly
-                  customization. We did it in combination of very clean and
-                  flexible design.
+                  Um cupom de 50% desconto na compra da segunda edição do livro
+                  "Dieta Flexível"
                 </p>
               </div>
             </div>

@@ -44,11 +44,18 @@
   border: none;
 }
 
-.card-course {
+.card-base {
   width: 100%;
-  background-image: url("../images/home/thumbs/mv8s-thumb.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.card-mv8s {
+  background-image: url("../images/home/thumbs/mv8s-thumb.png");
+}
+
+.card-pacote-livros {
+  background-image: url("../images/home/thumbs/pacote-livros-caio-bottura.png");
 }
 
 .card-body--distancer {

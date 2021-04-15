@@ -1,8 +1,6 @@
-import dietaFlexivel from "./dietaFlexivel.css";
-
 function createHero() {
   return (
-    <section className="df-hero hero-2 bg-dark" id="df-hero">
+    <section className="hero hero-2 bg-dark" id="heroMeditacao">
       <div className="hero-content bg-dark">
         <div className="container">
           <div className="row">
@@ -26,7 +24,7 @@ function createHero() {
               <div className="hero-holder">
                 <img
                   className="img-fluid"
-                  src="assets/images/infoprod_dieta_flex/capa.png"
+                  src="assets/images/mockup/book.png"
                   alt="screens"
                 />
               </div>
@@ -36,18 +34,15 @@ function createHero() {
               data-wow-duration="1s"
             >
               <div className="hero-headline">
-                SEM RECORRER A ESTERÓIDES ANABOLIZANTES
+                Showcase and sell your e-book in simple way.
               </div>
               <div className="hero-bio">
-                COMO TER RESULTADOS SÓLIDOS NA ACADEMIA AINDA QUE VOCÊ SEJA UM
-                COMPLETO INICIANTE!
+                This should be used to tell a story and let your users know a
+                little more about your product or service.
               </div>
               <div className="hero-action">
-                <a
-                  className="btn btn--orange btn--rounded"
-                  href="https://go.hotmart.com/I11401180M"
-                >
-                  Eu Quero
+                <a className="btn btn--primary btn--rounded" href="#">
+                  download
                 </a>
               </div>
             </div>

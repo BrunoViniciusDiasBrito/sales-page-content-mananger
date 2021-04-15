@@ -22,7 +22,7 @@ function createPricing() {
             data-wow-duration="1s"
           >
             <div className="pricing-panel pricing-panel-home">
-              <div className="card card-course">
+              <div className="card card-base card-mv8s">
                 <div className="card-img-top"></div>
                 <div className="card-body card-body--distancer">
                   <h5 className="card-title">MV8S</h5>
@@ -42,11 +42,14 @@ function createPricing() {
             data-wow-duration="1s"
           >
             <div className="pricing-panel pricing-panel-home">
-              <div className="card card-course">
+              <div className="card card-base card-pacote-livros">
                 <div className="card-img-top"></div>
                 <div className="card-body card-body--distancer">
-                  <h5 className="card-title">MV8S</h5>
-                  <a href="#" className="btn btn--marine">
+                  <h5 className="card-title">Pacote Caio Bottura</h5>
+                  <a
+                    href="https://www.infoprodutomania.com.br/pacote-livros-caio-bottura"
+                    className="btn btn--marine"
+                  >
                     Confira já
                   </a>
                 </div>
@@ -59,7 +62,7 @@ function createPricing() {
             data-wow-duration="1s"
           >
             <div className="pricing-panel pricing-panel-home">
-              <div className="card card-course">
+              <div className="card card-base card-mv8s">
                 <div className="card-img-top"></div>
                 <div className="card-body card-body--distancer">
                   <h5 className="card-title">MV8S</h5>
@@ -78,7 +81,7 @@ function createPricing() {
             data-wow-duration="1s"
           >
             <div className="pricing-panel pricing-panel-home">
-              <div className="card card-course">
+              <div className="card card-base card-mv8s">
                 <div className="card-img-top"></div>
                 <div className="card-body card-body--distancer">
                   <h5 className="card-title">MV8S</h5>
@@ -95,7 +98,7 @@ function createPricing() {
             data-wow-duration="1s"
           >
             <div className="pricing-panel pricing-panel-home">
-              <div className="card card-course">
+              <div className="card card-base card-mv8s">
                 <div className="card-img-top"></div>
                 <div className="card-body card-body--distancer">
                   <h5 className="card-title">MV8S</h5>
@@ -112,7 +115,7 @@ function createPricing() {
             data-wow-duration="1s"
           >
             <div className="pricing-panel pricing-panel-home">
-              <div className="card card-course">
+              <div className="card card-base card-mv8s">
                 <div className="card-img-top"></div>
                 <div className="card-body card-body--distancer">
                   <h5 className="card-title">MV8S</h5>

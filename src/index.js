@@ -3,13 +3,17 @@ import ReactDOM from "react-dom";
 import Footer from "./components/Footer";
 // import Home from "./components/Home";
 // import ViolaoEm8Semanas from "./pages/Violao-em-8-semanas";
-import DietaFlex from "./pages/DietaFlexivel";
+// import PacoteLivros from "./pages/Pacote-Livros-Caio-Bottura";
+import Meditacao from "./pages/Meditacao";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DietaFlex />
-    <Footer name="infoprodutomania.com.br" />
+    <BrowserRouter>
+      <Meditacao />
+      <Footer name="infoprodutomania.com.br" />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

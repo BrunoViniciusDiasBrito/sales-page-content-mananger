@@ -1,0 +1,199 @@
+.df-hero {
+  height: 800px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.df-hero .hero-content {
+  height: 800px;
+}
+
+.df-hero .row-content {
+  padding-top: 80px;
+}
+
+.df-hero .hero-headline {
+  color: rgb(252, 210, 47);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.df-hero .hero-bio {
+  color: #ffffff;
+  opacity: 0.6;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 47px;
+}
+
+.df-hero .hero-holder {
+  position: relative;
+}
+
+.df-hero .hero-holder img {
+  position: absolute;
+  left: 0;
+  bottom: -700px;
+}
+
+/* Features */
+.bonus-ebook {
+  width: 250px;
+}
+
+.bonus-text {
+  color: red;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+/* Feature 2 */
+.explanation-video {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.explanation-video iframe {
+  width: 100%;
+}
+
+.explanation-video--icons .lnr-star {
+  color: yellow;
+  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-width: 1px;
+}
+
+.advantages-block--title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Profile */
+.profile-wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.profile-picture img {
+  width: 600px;
+}
+
+.description-cta {
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #333333;
+  font-size: 2em;
+  padding: 30px 20px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .df-hero .row-content {
+    /* padding-top: 120px; - original */
+    padding-top: 0px;
+  }
+
+  .df-hero .hero-headline {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .df-hero .hero-bio {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .df-hero .btn {
+    width: 130px;
+  }
+
+  .df-hero form {
+    margin-bottom: 30px !important;
+  }
+
+  .df-hero .hero-action {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .df-hero .hero-holder img {
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+
+  .df-hero .hero-content {
+    height: auto;
+    background-color: #333333;
+  }
+
+  /* Profile */
+  .profile-picture img {
+    width: 100%;
+  }
+
+  .motivation-video iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .df-hero .hero-headline {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .df-hero .hero-bio {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .df-hero .hero-holder img {
+    max-width: 350px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 763px) {
+  .df-hero {
+    height: 1000px !important;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  #profile-feature2 {
+    text-align: center;
+  }
+
+  .profile-description--title {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .heading .heading--desc {
+    padding-right: 0;
+  }
+
+  .df-feature-titles {
+    margin-bottom: 30px !important;
+    text-align: center;
+  }
+}
