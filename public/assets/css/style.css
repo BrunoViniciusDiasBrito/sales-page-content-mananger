@@ -59,6 +59,11 @@ html {
   font-size: 13px;
 }
 
+::selection {
+  color: gold !important;
+  background: black !important;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Ubuntu", sans-serif;
@@ -1052,6 +1057,14 @@ section {
 
 .bg-dark {
   background-color: #333333 !important;
+}
+
+.bg-navy {
+  background-color: #030e4e !important;
+}
+
+.bg-lightblue {
+  background-color: #99dcf141 !important;
 }
 
 /* Background Image */

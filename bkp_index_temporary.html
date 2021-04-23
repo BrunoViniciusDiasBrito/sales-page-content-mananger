@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Adsense-->
+    <script
+      data-ad-client="ca-pub-5540347917675823"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <!--Adsense /-->
+    <title>Em breve</title>
+  </head>
+  <body>
+    <img
+      src="./image/Infoproduto-219.png"
+      width="219"
+      height="154"
+      alt="logo"
+    />
+    <h1 class="soon"></h1>
+    <script>
+      const init = () => {
+        const h1 = document.querySelector(".soon");
+        h1.innerHTML = `Infoproduto Mania em breve...`;
+      };
+
+      init();
+    </script>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border: none;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(12, 12, 59);
+      }
+
+      h1 {
+        -webkit-text-stroke-color: orange;
+        -webkit-text-stroke-width: 1px;
+        font-size: 50px;
+        color: orange;
+        /* transition: all 1s; */
+        transition-timing-function: ease-in-out;
+        animation-name: appear;
+        animation-fill-mode: both;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      @keyframes appear {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        h1 {
+          font-size: 2em;
+        }
+      }
+    </style>
+  </body>
+</html>
