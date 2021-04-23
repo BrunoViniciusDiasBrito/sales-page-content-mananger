@@ -7,15 +7,28 @@ function createCTA() {
             className="col-12 col-md-12 col-lg-6 offset-lg-3 mb-100 wow fadeInUp"
             data-wow-duration="1s"
           >
-            <h3>Receba notificações sobre novos infoprodutos</h3>
+            <div className="feature-icon--greetings">
+              <i className="lnr lnr-heart"></i>
+            </div>
+            <h3>Compromisso e Coerência</h3>
             <p>
-              Digite seu email a baixo e enviaremos EXCLUSIVAMENTE as
-              notificações assim que os novos infoprodutos estiverem
-              disponiveis.
+              Com você mesmo, ao investir naquilo que ninguém pode tirar de
+              você, CONHECIMENTO!
             </p>
-            <a className="btn btn--primary btn--rounded" href="#">
-              download
-            </a>
+            <blockquote>
+              <p>
+                <i>
+                  "Treine enquanto eles dormem, estude enquanto eles se
+                  divertem, persista enquanto eles descansam, e então, viva o
+                  que eles sonham."
+                </i>
+                <small>
+                  {" "}
+                  <br />
+                  -Provérbio Japonês
+                </small>
+              </p>
+            </blockquote>
           </div>
         </div>
       </div>

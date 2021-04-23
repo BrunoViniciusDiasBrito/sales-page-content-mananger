@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^app\.infoprodutomania\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.app\.infoprodutomania\.com\.br$
+RewriteRule ^/?$ "https\:\/\/app\.infoprodutomania\.com\.br\/" [R=301,L]
+

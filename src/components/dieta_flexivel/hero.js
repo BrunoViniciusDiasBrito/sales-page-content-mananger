@@ -5,19 +5,6 @@ function createHero() {
     <section className="df-hero hero-2 bg-dark" id="df-hero">
       <div className="hero-content bg-dark">
         <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-12 col-lg-12">
-              <div
-                className="hero-logo mt-100 d-none d-sm-block wow fadeInUp"
-                data-wow-duration="1s"
-              >
-                <img
-                  src="assets/images/logo/infoproduto-219.png"
-                  alt="logo hero"
-                />
-              </div>
-            </div>
-          </div>
           <div className="row pt-0 row-content">
             <div
               className="col-12 col-md-5  wow fadeInUp"

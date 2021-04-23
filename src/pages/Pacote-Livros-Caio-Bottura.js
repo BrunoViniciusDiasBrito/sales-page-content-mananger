@@ -1,7 +1,6 @@
 import Hero from "../components/dieta_flexivel/hero";
 import Feature from "../components/dieta_flexivel/feature";
 import Feature2 from "../components/dieta_flexivel/feature2";
-import Clearfix from "../components/dieta_flexivel/clearfix";
 import Pricing from "../components/dieta_flexivel/pricing";
 import Profile from "../components/dieta_flexivel/profile";
 import Cta from "../components/dieta_flexivel/cta";
@@ -11,7 +10,6 @@ function createPacoteLivrosCaioBottura() {
   return (
     <div className="dieta-flex">
       <Hero />
-      <Clearfix />
       <Feature2 />
       <Profile />
       <Feature />
