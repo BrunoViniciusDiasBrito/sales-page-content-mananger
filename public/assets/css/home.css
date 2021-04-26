@@ -21,6 +21,12 @@
   height: 400px !important;
 }
 
+.heroVideo {
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .principal-logo {
   background-image: url("../images/logo/Infoproduto-219.png");
   width: 219px;
@@ -98,6 +104,47 @@
   font-size: 3em;
 }
 
+/* video */
+.infoproduto-background {
+  /* background-image: url("../images/home/computer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.video-item {
+  width: 100%;
+  height: inherit;
+}
+
+.course-block {
+  margin-bottom: 20px;
+}
+
+.product-text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-text-block a {
+  margin-top: 30px;
+}
+
+.area-de-anuncio-exemplo {
+  border-top: 2px solid rgba(0, 0, 0, 0.178);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area-de-anuncio-exemplo hr {
+  width: 300px;
+}
+
+.area-de-anuncio-exemplo h6 {
+  margin: 0;
+}
+
 @media only screen and (max-width: 1080px) {
   .principal-logo {
     display: none;
@@ -121,6 +168,16 @@
   .price-table {
     text-align: center;
     text-align: -webkit-center;
+  }
+
+  .course-block {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .product-text-block {
+    padding-right: 0;
+    align-items: center;
   }
 }
 
