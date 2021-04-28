@@ -1,0 +1,49 @@
+.gr-bending-bg {
+}
+.hero-gr {
+  min-height: 100vh;
+  padding-top: 0;
+}
+/* buttons */
+.btn-gr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0;
+  padding: 0;
+  line-height: 45px;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.btn-gr.active,
+.btn-gr:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-gr span {
+  font-size: 2em;
+}
+
+.btn--orange-border-gr {
+  border: 2px solid orange;
+  color: orange;
+  background-color: #333;
+  transition: 1s;
+}
+
+.btn--orange-border-gr:hover {
+  background-color: orange;
+  color: #333;
+}

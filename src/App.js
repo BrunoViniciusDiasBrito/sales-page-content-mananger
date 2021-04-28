@@ -6,11 +6,12 @@ import PacoteLivros from "./pages/Pacote-Livros-Caio-Bottura";
 import JaTraining from "./pages/JaTraining";
 import JacintoMoney from "./pages/JacintoMoney";
 import DesenhandoSemDom from "./pages/Desenhando-sem-dom";
+import GuitarraRock from "./pages/Guitarra-Rock";
 
 function App() {
   return (
     <React.StrictMode>
-      <Home />
+      <GuitarraRock />
       <Footer name="infoprodutomania.com.br" />
     </React.StrictMode>
   );
