@@ -73,6 +73,10 @@
   background-image: url("../images/home/thumbs/desenhando-sem-dom.png");
 }
 
+.card-guitarra-rock {
+  background-image: url("../images/home/thumbs/guitarra-rock.png");
+}
+
 .card-body--distancer {
   margin-top: 220px;
 }

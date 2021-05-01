@@ -122,6 +122,26 @@ function createPricing() {
               </div>
             </div>
           </div>
+
+          <div
+            className=" col-12 col-md-4 col-lg-4 price-table wow fadeInUp"
+            data-wow-duration="1s"
+          >
+            <div className="pricing-panel pricing-panel-home">
+              <div className="card card-base card-guitarra-rock">
+                <div className="card-img-top"></div>
+                <div className="card-body card-body--distancer">
+                  <h5 className="card-title">Guitarra Rock</h5>
+                  <a
+                    className="btn btn--marine"
+                    href="https://guitarra-rock.infoprodutomania.com.br/"
+                  >
+                    Confira já
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="row">
           <script

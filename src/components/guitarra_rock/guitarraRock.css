@@ -47,3 +47,110 @@
   background-color: orange;
   color: #333;
 }
+
+.btn--orange-gr {
+  color: white;
+  background-color: orange;
+  transition: 0.5s;
+}
+
+.btn--orange-gr:hover {
+  background-color: white;
+  color: orange;
+}
+
+/* Avatar */
+#avatar {
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+.dores ul {
+  padding-left: 25px;
+}
+.dores ul li {
+  font-size: 1.5em;
+}
+
+.dores h1 {
+  font-size: 2.2em;
+}
+
+.connection h1 {
+  font-size: 3em;
+}
+
+.connection div p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  border-left: 5px solid rgb(57, 126, 216);
+  color: rgba(51, 51, 51, 0.774);
+}
+
+.advantages-wrap .feature--icon i {
+  color: rgb(57, 126, 216);
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.advantages-wrap .feature--content p {
+  font-size: 1.5em;
+}
+
+.course-bundler-espec .feature-panel {
+  display: flex;
+  margin-bottom: 0 !important;
+  align-items: center;
+}
+
+.bundle-content .feature--icon {
+  margin: 15px 0;
+}
+
+.bundle-content .feature--icon i {
+  font-weight: bold;
+  color: rgb(77, 77, 77);
+}
+
+.bundle-content .feature--content p {
+  font-size: 1.5em;
+}
+
+.guitar-modules {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.guitar-modules .bonus-module .trend .trend-text {
+  border-left: 5px solid rgba(57, 126, 216, 0.863);
+  border-radius: 10px;
+}
+
+.gtr-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.gtr-box ul li {
+  font-size: 1.4em;
+  display: flex;
+}
+
+.gtr-box ul li .feature--icon i {
+  margin-right: 10px;
+  font-size: 1.4em;
+  color: rgba(57, 216, 150, 0.863);
+}
+
+.gtr-social .videoInicio {
+  border: none;
+  box-shadow: 4px 1px 6px 1px rgba(0, 0, 0, 0.418);
+}
+
+@media only screen and (max-width: 460px) {
+  .gtr-social .videoInicio {
+    width: 100%;
+    height: 280px;
+  }
+}

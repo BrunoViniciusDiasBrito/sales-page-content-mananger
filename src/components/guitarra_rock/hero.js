@@ -16,9 +16,11 @@ function createHero() {
                 direto sem enrolação!
               </h1>
               <p>
-                Mais de 30 mil alunos na nossa plataforma que querem MELHORAR
-                suas técnicas da guitarra. Para de uma vez por todas de tocar
-                com cifras.
+                <span className="text-gold">
+                  Mais de 30 mil alunos na nossa plataforma
+                </span>{" "}
+                que querem MELHORAR suas técnicas da guitarra. Pare de uma vez
+                por todas de tocar com cifras.
               </p>
             </div>
             <div className="col-12 centralize--video">
