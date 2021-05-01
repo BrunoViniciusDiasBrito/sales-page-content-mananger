@@ -165,6 +165,25 @@ function createPricing() {
             <CustomButton href="" />
           </ProductListParts>
         </ProductList>
+
+        <ProductList>
+          <ProductListParts>
+            <VideoList
+              src={videoURL}
+              poster="assets/images/home/thumbs/guitarra-rock.png"
+            />
+          </ProductListParts>
+
+          <ProductListParts>
+            <h2>Guitarra Rock</h2>
+            <p>
+              Mais de 30 mil alunos na nossa plataforma que querem MELHORAR suas
+              técnicas da guitarra. Pare de uma vez por todas de tocar com
+              cifras.
+            </p>
+            <CustomButton href="" />
+          </ProductListParts>
+        </ProductList>
         <div className="row">
           <script
             async
