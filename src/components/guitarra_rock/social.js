@@ -7,11 +7,8 @@ function createSocial() {
       <div className="container">
         <div className="row">
           <div className="col-12 mb-30 wow fadeInUp" data-wow-duration="1s">
-            <h3 className="social-prove--video">RESULTADOS REAIS...</h3>
-            <h5>
-              Confira abaixo os trabalhos de nossos alunos e o que eles tem a
-              dizer!
-            </h5>
+            <h3 className="social-prove--video">Alunos em Destaque...</h3>
+            <h5>Resultados do Guitarra Rock</h5>
           </div>
         </div>
         <div className="row">
