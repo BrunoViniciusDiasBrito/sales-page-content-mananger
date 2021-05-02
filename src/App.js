@@ -11,7 +11,7 @@ import GuitarraRock from "./pages/Guitarra-Rock";
 function App() {
   return (
     <React.StrictMode>
-      <GuitarraRock />
+      <Home />
       <Footer name="infoprodutomania.com.br" />
     </React.StrictMode>
   );
