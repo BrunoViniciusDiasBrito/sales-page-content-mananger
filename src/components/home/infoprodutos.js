@@ -143,24 +143,6 @@ function createPricing() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5540347917675823"
-            crossorigin="anonymous"
-          ></script>
-          <div className="col-12 text-center centralize-text">
-            <ins
-              class="adsbygoogle"
-              style={myStyle}
-              data-ad-client="ca-pub-5540347917675823"
-              data-ad-slot="9248653453"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-          </div>
-        </div>
       </div>
     </section>
   );
