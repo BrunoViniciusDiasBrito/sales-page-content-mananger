@@ -1,8 +1,10 @@
 function createPricing() {
-  const myStyle = {
-    display: "block",
+  const stl = {
+    color: "white",
+    backgroundColor: "black",
+    padding: "20px 20px",
+    borderRadius: "100px",
   };
-
   return (
     <section className="pricing pricing-1 bg-gray" id="pricing">
       <div className="container">
@@ -13,9 +15,9 @@ function createPricing() {
               data-wow-duration="1s"
             >
               <h2 className="heading--title">
-                infoprodutos em <span>Destaque</span>
+                <span style={stl}>Confira também</span>
               </h2>
-              <p className="heading--desc">Os melhores infoprodutos na web</p>
+              <p className="heading--desc">Infoprodutos em Destaque</p>
             </div>
           </div>
         </div>
@@ -114,7 +116,7 @@ function createPricing() {
                   <h5 className="card-title">Desenhando sem Dom</h5>
                   <a
                     className="btn btn--marine"
-                    href="https://desenhando-sem-dom.infoprodutomania.com.br/"
+                    href="https://infoprodutomania.com.br/"
                   >
                     Confira já
                   </a>

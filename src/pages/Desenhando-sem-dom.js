@@ -4,6 +4,7 @@ import Cta from "../components/desenhando_sem_dom/cta";
 import Cta2 from "../components/desenhando_sem_dom/cta2";
 import MiddleCta from "../components/desenhando_sem_dom/middleCta";
 import Modules from "../components/desenhando_sem_dom/modules";
+import InfoProduto from "../components/home/infoprodutos";
 
 function createDesenhando() {
   return (
@@ -14,6 +15,7 @@ function createDesenhando() {
       <Modules />
       <Cta2 />
       <Cta />
+      <InfoProduto />
     </div>
   );
 }
