@@ -20,7 +20,7 @@ function createSocialProveVideo() {
               className="videoInicio"
               width="350"
               height="198"
-              src="https://player.vimeo.com/video/462779269"
+              src="https://www.youtube.com/embed/l1rBgdGU2xQ"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -35,7 +35,7 @@ function createSocialProveVideo() {
               className="videoInicio"
               width="350"
               height="198"
-              src="https://player.vimeo.com/video/348271162"
+              src="https://www.youtube.com/embed/2RJJkC9irj8"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -50,54 +50,7 @@ function createSocialProveVideo() {
               className="videoInicio"
               width="350"
               height="198"
-              src="https://player.vimeo.com/video/348273139"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-        <div className="row">
-          <div
-            className="col-12 col-md-4 mb-30 mr-10 wow fadeInUp"
-            data-wow-duration="1s"
-          >
-            <iframe
-              className="videoInicio"
-              width="350"
-              height="198"
-              src="https://player.vimeo.com/video/289481433"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div
-            className="col-12 col-md-4 mb-30 mr-10 wow fadeInUp"
-            data-wow-duration="1s"
-          >
-            <iframe
-              className="videoInicio"
-              width="350"
-              height="198"
-              src="https://player.vimeo.com/video/271786078"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div
-            className="col-12 col-md-4 mb-30 mr-10 wow fadeInUp"
-            data-wow-duration="1s"
-          >
-            <iframe
-              className="videoInicio"
-              width="350"
-              height="198"
-              src="https://player.vimeo.com/video/263304289"
+              src="https://www.youtube.com/embed/jlHhFuiHu0A"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -114,7 +67,7 @@ function createSocialProveVideo() {
               className="videoInicio"
               width="350"
               height="198"
-              src="https://player.vimeo.com/video/290375167"
+              src="https://www.youtube.com/embed/agVjUoXNz4w"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -129,7 +82,7 @@ function createSocialProveVideo() {
               className="videoInicio"
               width="350"
               height="198"
-              src="https://player.vimeo.com/video/262116715"
+              src="https://www.youtube.com/embed/vSkXtV3iAbA"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -144,54 +97,7 @@ function createSocialProveVideo() {
               className="videoInicio"
               width="350"
               height="198"
-              src="https://player.vimeo.com/video/262113428"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-        <div className="row">
-          <div
-            className="col-12 col-md-4 mb-30 mr-10 wow fadeInUp"
-            data-wow-duration="1s"
-          >
-            <iframe
-              className="videoInicio"
-              width="350"
-              height="198"
-              src="https://player.vimeo.com/video/307787158"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div
-            className="col-12 col-md-4 mb-30 mr-10 wow fadeInUp"
-            data-wow-duration="1s"
-          >
-            <iframe
-              className="videoInicio"
-              width="350"
-              height="198"
-              src="https://player.vimeo.com/video/307793090"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div
-            className="col-12 col-md-4 mb-30 mr-10 wow fadeInUp"
-            data-wow-duration="1s"
-          >
-            <iframe
-              className="videoInicio"
-              width="350"
-              height="198"
-              src="https://player.vimeo.com/video/325329720"
+              src="https://www.youtube.com/embed/ppxvfb_1pVk"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

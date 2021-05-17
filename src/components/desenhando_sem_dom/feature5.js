@@ -520,8 +520,11 @@ function createFeature() {
                   Aulas Completas em Tempo Real sem Narração
                 </h3>
                 <p>
-                  Aula 1 - Cranio Cromado - PARTE 1 <br />
-                  Aula 2 - Cranio Cromado - PARTE 2
+                  Desenhando o Mario - Ilustração Básica com a Caixa da Faber
+                  Castell de 12 Cores <br />
+                  Desenhando o Homem Aranha com o Venon em Tempo Real com Faber
+                  Castell Linha Escolar- AULAS NOVAS AO ADICIONADAS DECORRER DO
+                  CURSO
                 </p>
               </div>
 
